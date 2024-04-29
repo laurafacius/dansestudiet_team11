@@ -1,9 +1,22 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Button from '../components/Button.astro';
+import Sektion1 from "../components/Sektion1.astro";
+import Sektion2 from "../components/Sektion2.astro"
+import Sektion3 from "../components/Sektion3.astro"
 ---
-<MainLayout title="Titel">
-	<article>
-		<p>Index indhold</p>
-	</article>
+<MainLayout title="Forside">
+
+	<section class="bg-blue">
+        <Sektion1></Sektion1>
+    </section>
+
+	<section>
+		<Sektion2></Sektion2>
+	</section>
+
+    <section class="bg-yellow">
+        <Sektion3></Sektion3>
+    </section>
+
 </MainLayout>
