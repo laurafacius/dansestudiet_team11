@@ -1,9 +1,11 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
+import Header from "../components/Header.astro"
 import Button from '../components/Button.astro';
 import Sektion1 from "../components/Sektion1.astro";
 import Sektion2 from "../components/Sektion2.astro"
 import Sektion3 from "../components/Sektion3.astro"
+import Sektion4 from "../components/Sektion4.astro"
 ---
 <MainLayout title="Forside">
 
@@ -17,6 +19,10 @@ import Sektion3 from "../components/Sektion3.astro"
 
     <section class="bg-yellow">
         <Sektion3></Sektion3>
+    </section>
+
+    <section class="bg-blue">
+        <Sektion4></Sektion4>
     </section>
 
 </MainLayout>
