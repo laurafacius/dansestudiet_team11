@@ -7,7 +7,7 @@ import Button from '../components/Button.astro';
 			<!-- alt hvad der omhandler cards til workshop -->
 			<section class="grid md:grid-cols-2 gap-4">
 				<template x-for="dansehold in alledansehold" :key="dansehold.id">	
-					<article class="card border-2 border-blue rounded-lg bg-blue">
+					<article class="card border-2 border-blue rounded-lg bg-blue pb-10">
 						<a href="">
                             
 							<header class="mb-4 relative">
@@ -31,7 +31,7 @@ import Button from '../components/Button.astro';
                                 </div>
                             </section>
 
-                             <a href="https://docs.google.com/forms/d/e/1FAIpQLScHu7x-lr9XkgeMQx-G2TWJr1WugKtw0Amx34NHQGbblG0dLg/viewform"><Button variant="tertiary" size="medium">Læs mere</Button></a>
+                             <a class="pl-5" href="https://docs.google.com/forms/d/e/1FAIpQLScHu7x-lr9XkgeMQx-G2TWJr1WugKtw0Amx34NHQGbblG0dLg/viewform"><Button variant="tertiary" size="medium">Læs mere</Button></a>
 						</a>
 					</article>
 				</template>
